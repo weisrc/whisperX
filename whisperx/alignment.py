@@ -156,7 +156,7 @@ def align(
 
     for sdx, segment in enumerate(transcript):
         while True:
-            segment_align_success = False
+            segment_align_success = "words" in segment
 
             # strip spaces at beginning / end, but keep track of the amount.
             num_leading = len(segment["text"]) - len(segment["text"].lstrip())
