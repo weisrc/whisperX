@@ -1,6 +1,6 @@
 torch==2.0.0
 torchaudio==2.0.1
-faster-whisper
+faster-whisper==0.10.0
 transformers
 ffmpeg-python==0.2.0
 pandas
